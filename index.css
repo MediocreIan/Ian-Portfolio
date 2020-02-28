@@ -9,9 +9,20 @@ body {
   background-color: #090302;
 }
 
+p {
+  font-family: "Neuton";
+  font-size: 19px;
+}
+
+h2 {
+  font-family: "Palanquin";
+  font-size: 24px;
+}
+
 .nav-objects {
   padding: auto;
   position: relative;
+  width: 75%;
 }
 
 .nav-header {
@@ -21,6 +32,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 36px;
   margin: 0;
+  font-family: "Lora";
 }
 
 main {
@@ -33,8 +45,8 @@ main {
   margin: 2;
   background-color: #53354a;
   flex-grow: 1;
-  max-width: 75%;
   align-self: center;
+  width: 75%;
 }
 
 .col > * {
@@ -74,7 +86,6 @@ nav {
 
 #hero {
   background-color: #3a171a;
-  width: 75%;
 }
 
 .nav-objects {
@@ -87,7 +98,6 @@ nav {
 #contact {
   background-color: #4e634c;
   padding-bottom: 15px;
-  width: 75%;
 }
 
 main > section {
@@ -100,32 +110,16 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e84545;
+  background-color: #3d415f
   color: white;
   text-align: center;
 }
-@media only screen and (min-width: 600px) {
-  #bio {
-  }
-
-  #projects {
-  }
-
-  main {
-  }
-  header {
-  }
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+@media only screen and (max-width: 1300px) {
+  nav {
     width: 100%;
-    background-color: #646996;
-    color: white;
-    text-align: center;
   }
-}
-@media only screen and (min-width: 1150px) {
-  main {
+  .nav-objects,
+  .col {
+    width: 100%;
   }
 }
