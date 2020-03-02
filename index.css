@@ -5,7 +5,10 @@
   text-align: center;
   color: white;
 }
-
+img {
+  display: block;
+  margin: 0 auto;
+}
 #contact > * {
   display: inline;
 }
@@ -15,7 +18,10 @@ body {
 }
 #projects {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 50px 10px 0 10px;
+  padding: 0 10px 0 10px;
 }
 
 #bio {
@@ -35,13 +41,9 @@ p {
 }
 
 .project {
-  flex: 1;
   margin: 10px;
-}
-
-#projects {
-  margin: 50px 10px 0 10px;
-  padding: 0 10px 0 10px;
+  width: 50%;
+  flex: 1 1 0px;
 }
 
 #bio,
@@ -67,5 +69,11 @@ a:hover {
 @media only screen and (min-width: 800px) {
   #bio {
     padding: 0 20% 0 20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    width: 200px;
   }
 }
