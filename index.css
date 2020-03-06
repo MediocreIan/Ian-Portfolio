@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: serif;
+  font-family: "Palanquin";
   margin: 0;
   text-align: center;
   color: white;
@@ -12,6 +12,7 @@ img {
 }
 #contact > * {
   display: inline;
+  margin: 0 5px 0 5px;
 }
 
 body {
