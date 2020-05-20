@@ -3,20 +3,41 @@
   font-family: "Palanquin";
   margin: 0;
   text-align: center;
-  color: white;
+  color: #020100;
+}
+.project {
+  flex-grow: 1;
+}
+.header {
+  background-color: #235789;
+  padding: 30px 10px;
+}
+h1 {
+  margin: 0;
+}
+.contact {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 350px;
+  margin-left: -175px;
+}
+h1,
+.contact > * {
+  color: #020100;
 }
 img {
   display: block;
   margin: 0 auto;
   width: 200px;
 }
-#contact > * {
+.contact > * {
   display: inline;
   margin: 0 5px 0 5px;
 }
 
 body {
-  background-color: #2a2828;
+  background-color: #fdfffc;
 }
 #projects {
   display: flex;
@@ -25,17 +46,21 @@ body {
   margin: 50px 10px 0 10px;
   padding: 0 10px 0 10px;
 }
-
+.project > p {
+  max-width: 500px;
+  margin: auto;
+}
 #bio {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  margin: 50px 30px 0 30px;
 }
-
+img {
+  max-width: 500px;
+}
 .bio-section {
   flex: 1;
   margin: 10px auto;
+  max-width: 500px;
 }
 
 p {
@@ -50,28 +75,16 @@ p {
 
 #bio,
 .project {
-  border: 6px double #2f3c97;
   padding: 10px;
 }
 
-h1,
 h2,
-h3,
-a {
-  color: #b0b7e9;
+h3 {
+  color: #235789;
 }
 
 a:hover {
-  color: #6c7efd;
-}
-
-#contact > * {
-  font-size: 30px;
-}
-@media only screen and (min-width: 800px) {
-  #bio {
-    padding: 0 20% 0 20%;
-  }
+  color: #235789;
 }
 
 @media only screen and (min-width: 500px) {

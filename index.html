@@ -15,15 +15,15 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <section class="col" id="contact">
-      <h3>Contact Me</h3>
-
-      <a href="https://github.com/MediocreIan">Github</a>
-      <a href="https://www.linkedin.com/in/ian-drews-2a757b19b/">LinkedIn</a>
-      <a href="mailto:idrews094@gmail.com" target="_blank">Send Mail</a>
-    </section>
     <main>
-      <header id="hero" class="col">
+      <header class="header" class="col">
+        <section class="contact" class="contact">
+          <a href="https://github.com/MediocreIan">Github</a>
+          <a href="https://www.linkedin.com/in/ian-drews-2a757b19b/"
+            >LinkedIn</a
+          >
+          <a href="mailto:idrews094@gmail.com" target="_blank">Send Mail</a>
+        </section>
         <h1>Ian Drews</h1>
       </header>
 
@@ -37,8 +37,10 @@
         </div>
         <div class="bio-section">
           <p>
-            I play nicely with Javascript, JQuery and CSS I can often make them
-            play nicely with each other as well..
+            I am experienced with React, Node, Express, PostreSQL, Sass, and
+            Agile Development. I've created a number of fullstack web apps some
+            of which you cans see bellow, I'm extremely motivated and enjoy
+            working on challenging problems and coming up with novel solutions.
           </p>
         </div>
         <div class="bio-section">
@@ -47,52 +49,53 @@
             watching entirely too much Television.
           </p>
         </div>
-        <div class="bio-section">
-          <p>
-            In my previous life, I was a pastry chef in several fast-paced
-            restaurants, I worked in a lot of great teams cooking over the years
-            and I'm excited to be a part of a great one while coding as well. I
-            bring that same attention to detail and ability to function in high
-            stress situations to programming, I do my best not to bring kitchen
-            language along with it.
-          </p>
-        </div>
       </section>
 
       <section class="col" id="projects">
         <div class="project">
-          <h3>Bookmark App</h3>
+          <h3>Bashful</h3>
           <p>
-            This is the Bookmark app that I made as part of Thinkful's Web
-            Development Career Path. It uses a thinkful API to record and store
-            bookmarks entered into it for later perusal.
+            This is a simple bash script generator I made with the intention of
+            giving people who are just getting started with the concept of
+            writing scripts a more user friendly experience. It does still
+            require a bit of an entry level knowledge of bash to get started.
           </p>
-          <p>Made with JQuery, Javascript and CSS</p>
+          <p class="technology">
+            Made with React, express, Postgresql,javascript, Node, Sass,
+            bcryptjs, date-fns and Jsonwebtoken.
+          </p>
+          <a href="https://bashful.now.sh/" target="_blank"> Live Site</a>
           <a
-            href="https://thinkful-ei-macaw.github.io/Ian-bookmarkapp/"
+            href="https://github.com/thinkful-ei-macaw/Ian-capstone-clien"
             target="_blank"
+            >Client Repo</a
+          ><a href="https://github.com/thinkful-ei-macaw/Ian-capstone-server"
+            >Server Repo</a
           >
-            Live Site</a
-          >
-          <a
-            href="https://github.com/thinkful-ei-macaw/Ian-bookmarkapp"
-            target="_blank"
-            >Github Repo</a
-          >
-          <img src="bookmark-app.png" alt="an image of my bookmark app" />
+          <img
+            src="bashful_input_page.png"
+            alt="an image of the input view of Bashful"
+          />
         </div>
         <div class="project">
-          <h3>project 2</h3>
+          <h3>petful</h3>
           <p>
-            Ad irure esse mollit reprehenderit nostrud culpa veniam. Laboris
-            labore consequat esse Lorem exercitation ex in. Anim qui laborum qui
-            ea et eiusmod ullamco est et mollit consequat proident.
-            Reprehenderit consectetur et incididunt ex fugiat. Nisi deserunt
-            labore laborum commodo.
+            This is a mockup of a pet adoption website operating on a first come
+            first serve basis using a queue structure. It doesn't have a proper
+            database and mostly was an exercise in using queue structures,
+            however I'm very happy with how it worked out visually.
           </p>
-          <img src="bookmark-app.png" alt="an image of my bookmark app" />
+          <a href="https://petful-gamma.now.sh/" target="_blank"> Live Site</a>
+          <a
+            href="https://github.com/thinkful-ei-macaw/DSA-petful-frontend-IM"
+            target="_blank"
+            >Client Repo</a
+          ><a href="https://github.com/thinkful-ei-macaw/DSA-petful-backend-IM"
+            >Server Repo</a
+          >
+          <img src="petful.png" alt="an image of the two views of petful" />
         </div>
-        <div class="project">
+        <!-- <div class="project">
           <h3>project 3</h3>
           <p>
             Ad irure esse mollit reprehenderit nostrud culpa veniam. Laboris
@@ -102,7 +105,7 @@
             labore laborum commodo.
           </p>
           <img src="bookmark-app.png" alt="an image of my bookmark app" />
-        </div>
+        </div> -->
       </section>
     </main>
   </body>
