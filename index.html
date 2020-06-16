@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css?family=Lora|Neuton|Palanquin&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
@@ -29,7 +30,7 @@
 
       <section class="col" id="bio">
         <div class="bio-section">
-          <h2>BIO</h2>
+          <h2>About me</h2>
           <p>
             Hi, there I'm Ian. I refresh web pages, read documentation and
             occasionally even get to write code.
@@ -52,13 +53,41 @@
       </section>
 
       <section class="col" id="projects">
+        <h2 class="projects-header">Things I've Made</h2>
+        <div class="project">
+          <h3>Trouvaille</h3>
+          <p>
+            Trouvaille is a Roadtrip planning app, which uses the google
+            directions, places and maps apis to present the user with a list of
+            tourist attractions along a given route and then displays a map
+            routing out the trip, with all the stops.
+          </p>
+          <p class="technology">
+            Made with React, express, Postgresql,javascript, Node, Sass, and
+            Google Api services.
+          </p>
+          <a href="https://petful-gamma.now.sh/" target="_blank"> Live Site</a>
+          <a
+            href="https://github.com/thinkful-ei-macaw/DSA-petful-frontend-IM"
+            target="_blank"
+            >Client Repo</a
+          ><a href="https://github.com/thinkful-ei-macaw/DSA-petful-backend-IM"
+            >Server Repo</a
+          >
+          <a href="https://petful-gamma.now.sh/" target="_blank"
+            ><img
+              src="trouvaille-portfolio-image.png"
+              alt="an image of the two views of petful"
+          /></a>
+        </div>
         <div class="project">
           <h3>Bashful</h3>
           <p>
-            This is a simple bash script generator I made with the intention of
+            This is a simple bash script generator made with the intention of
             giving people who are just getting started with the concept of
-            writing scripts a more user friendly experience. It does still
-            require a bit of an entry level knowledge of bash to get started.
+            writing scripts a more user friendly experience. It allows the user
+            to create their first simple bash scripts with descriptions of each
+            keyword and instructions on how to run them for the first time.
           </p>
           <p class="technology">
             Made with React, express, Postgresql,javascript, Node, Sass,
@@ -74,17 +103,19 @@
           >
           <a href="https://bashful.now.sh/" target="_blank">
             <img
-              src="bashful_input_page.png"
+              src="bashful-portfolio-image.png"
               alt="an image of the input view of Bashful"
           /></a>
         </div>
         <div class="project">
-          <h3>petful</h3>
+          <h3>Spaced-Out</h3>
           <p>
-            This is a mockup of a pet adoption website operating on a first come
-            first serve basis using a queue structure. It doesn't have a proper
-            database and mostly was an exercise in using queue structures,
-            however I'm very happy with how it worked out visually.
+            A language flash card site for practicing Afrikaans, the language
+            uses the spaced-reppetition algorithm for learning to increase the
+            rate of learning for users.
+          </p>
+          <p class="technology">
+            Made with React, express, Postgresql,javascript, Node, and Sass
           </p>
           <a href="https://petful-gamma.now.sh/" target="_blank"> Live Site</a>
           <a
@@ -95,20 +126,11 @@
             >Server Repo</a
           >
           <a href="https://petful-gamma.now.sh/" target="_blank"
-            ><img src="petful.png" alt="an image of the two views of petful"
+            ><img
+              src="spaced-out-both-views.png"
+              alt="an image of the two views of petful"
           /></a>
         </div>
-        <!-- <div class="project">
-          <h3>project 3</h3>
-          <p>
-            Ad irure esse mollit reprehenderit nostrud culpa veniam. Laboris
-            labore consequat esse Lorem exercitation ex in. Anim qui laborum qui
-            ea et eiusmod ullamco est et mollit consequat proident.
-            Reprehenderit consectetur et incididunt ex fugiat. Nisi deserunt
-            labore laborum commodo.
-          </p>
-          <img src="bookmark-app.png" alt="an image of my bookmark app" />
-        </div> -->
       </section>
     </main>
   </body>
