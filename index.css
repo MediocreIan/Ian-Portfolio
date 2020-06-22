@@ -18,6 +18,9 @@ h1 {
 .project-links {
   margin: 10px;
 }
+.project-links > a {
+  color: red;
+}
 .contact {
   background-color: #235789;
   position: absolute;
@@ -99,16 +102,47 @@ a:hover {
     width: auto;
   }
 }
+
 @media only screen and (min-width: 1050px) {
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -175px;
+  }
   .project {
     position: relative;
     height: 751px;
   }
+  .bio-section {
+    max-width: 700px;
+  }
+  img {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
   img {
     position: absolute;
     bottom: 0;
+    left: 50%;
+    margin-left: -192.5px;
+  }
+  .project {
+    position: relative;
+    height: 751px;
   }
   .bio-section {
     max-width: 700px;
+  }
+  img {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  img {
+    height: auto;
+    margin-left: -225px;
   }
 }
